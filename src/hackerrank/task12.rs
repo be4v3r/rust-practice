@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn bon_appetit(bill: &[i32], k: i32, b: i32) -> String {
     let actual: i32 = bill.iter()
         .enumerate()
